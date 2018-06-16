@@ -41,6 +41,10 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{19195F
 		.nuget\packages.config = .nuget\packages.config
 	EndProjectSection
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{79BB442B-9BCB-4844-A89D-F048F155EFAB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive", "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive\ExpressiveAnnotations.AspNetCore.MvcUnobtrusive.csproj", "{3A6D899E-73ED-4099-9926-AEF4A76A9218}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,13 +109,26 @@ Global
 		{0FC1317D-C657-4CD1-99A6-71A3C4372306}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
 		{0FC1317D-C657-4CD1-99A6-71A3C4372306}.Release-Net45|Any CPU.ActiveCfg = Release|Any CPU
 		{0FC1317D-C657-4CD1-99A6-71A3C4372306}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release-Net45|Any CPU.ActiveCfg = Release|Any CPU
+		{3A6D899E-73ED-4099-9926-AEF4A76A9218}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{2DE111D5-E3A5-4FC8-8261-AA2DA743A3AD} = {79BB442B-9BCB-4844-A89D-F048F155EFAB}
 		{78E4B95D-B0C3-486E-8847-CA444EF5BB95} = {4FE56EA0-4550-4A07-A758-331B9CF470A1}
 		{94B9466A-3C9E-47A3-A300-6E45AAE763D7} = {4FE56EA0-4550-4A07-A758-331B9CF470A1}
+		{46C5858F-76A5-4032-A4DA-5299CE51209B} = {79BB442B-9BCB-4844-A89D-F048F155EFAB}
 		{0FC1317D-C657-4CD1-99A6-71A3C4372306} = {4FE56EA0-4550-4A07-A758-331B9CF470A1}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {BC6F01E8-5B4A-4574-9CFA-98F6715AF030}
 	EndGlobalSection
 EndGlobal
