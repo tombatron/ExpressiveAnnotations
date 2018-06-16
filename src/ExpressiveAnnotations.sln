@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.26430.6
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressiveAnnotations", "ExpressiveAnnotations\ExpressiveAnnotations.csproj", "{70DD327B-F37C-4291-9388-212AA541E970}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressiveAnnotations", "ExpressiveAnnotations\ExpressiveAnnotations.csproj", "{70DD327B-F37C-4291-9388-212AA541E970}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressiveAnnotations.Tests", "ExpressiveAnnotations.Tests\ExpressiveAnnotations.Tests.csproj", "{2DE111D5-E3A5-4FC8-8261-AA2DA743A3AD}"
 EndProject
@@ -43,7 +43,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{19195F
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Testing", "Testing", "{79BB442B-9BCB-4844-A89D-F048F155EFAB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive", "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive\ExpressiveAnnotations.AspNetCore.MvcUnobtrusive.csproj", "{3A6D899E-73ED-4099-9926-AEF4A76A9218}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive", "ExpressiveAnnotations.AspNetCore.MvcUnobtrusive\ExpressiveAnnotations.AspNetCore.MvcUnobtrusive.csproj", "{3A6D899E-73ED-4099-9926-AEF4A76A9218}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,10 +57,10 @@ Global
 		{70DD327B-F37C-4291-9388-212AA541E970}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{70DD327B-F37C-4291-9388-212AA541E970}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{70DD327B-F37C-4291-9388-212AA541E970}.Release|Any CPU.Build.0 = Release|Any CPU
-		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net40|Any CPU.ActiveCfg = Release-Net40|Any CPU
-		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net40|Any CPU.Build.0 = Release-Net40|Any CPU
-		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net45|Any CPU.ActiveCfg = Release-Net45|Any CPU
-		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net45|Any CPU.Build.0 = Release-Net45|Any CPU
+		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net40|Any CPU.ActiveCfg = Release|Any CPU
+		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net40|Any CPU.Build.0 = Release|Any CPU
+		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net45|Any CPU.ActiveCfg = Release|Any CPU
+		{70DD327B-F37C-4291-9388-212AA541E970}.Release-Net45|Any CPU.Build.0 = Release|Any CPU
 		{2DE111D5-E3A5-4FC8-8261-AA2DA743A3AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2DE111D5-E3A5-4FC8-8261-AA2DA743A3AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2DE111D5-E3A5-4FC8-8261-AA2DA743A3AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
