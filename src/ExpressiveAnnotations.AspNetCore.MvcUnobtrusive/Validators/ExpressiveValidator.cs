@@ -1,6 +1,9 @@
-﻿namespace ExpressiveAnnotations.AspNetCore.MvcUnobtrusive.Validators
+﻿using ExpressiveAnnotations.Attributes;
+
+namespace ExpressiveAnnotations.AspNetCore.MvcUnobtrusive.Validators
 {
-    class ExpressiveValidator
+    public abstract class ExpressiveValidator
     {
+
     }
 }
